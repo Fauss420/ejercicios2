@@ -1,0 +1,103 @@
+/* Establece una fuente base elegante y un fondo sutil */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 20px;
+    color: #444;
+}
+
+/* Estiliza el contenedor principal con un fondo más claro y una sombra más sutil */
+.problema {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para los encabezados con una tipografía y tamaño mejorados */
+.problema h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.problema h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Estilos para los labels */
+.problema label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+}
+
+/* Estilos para los inputs y selects */
+.problema input[type="number"],
+.problema select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para el botón con un color más elegante */
+.problema button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.problema button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el resultado con un espaciado mejorado */
+.problema p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.problema span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .problema {
+        padding: 20px;
+    }
+
+    .problema h1 {
+        font-size: 24px;
+    }
+
+    .problema h2 {
+        font-size: 20px;
+    }
+
+    .problema button {
+        font-size: 14px;
+    }
+}
